@@ -1,0 +1,287 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Global styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #764913;
+    color: beige;
+    font-size: 20px;
+    padding: 7px 0;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+  }
+  
+  nav ul.menu {
+    list-style: none;
+  }
+  
+  nav ul.menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: linear-gradient(to right, rgba(207, 108, 8, 0.405), rgba(247, 197, 140, 0.405)), url(https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/02/04091954/shutterstock_692337445-min-1354x900.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color: #000000;
+    text-align: center;
+    padding: 175px 0;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #821300;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: rgba(247, 197, 140, 0.405);
+    padding: 80px 0;
+  }
+  
+  .about h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* Menu Section */
+  .menu-section {
+    color: white;
+    background-image:url(https://wallpapercave.com/wp/wp8744615.jpg); 
+    background-color: #76491379;
+    padding: 80px 0;
+  }
+  
+  .menu-section h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .menu-section h4 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .menu-section p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .menu-section ol {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  /* Events Section */
+  .events {
+    background-image: url(https://wallpapers.com/images/featured/brown-aesthetic-wdan69t9mhfvfwqx.jpg); 
+    padding: 80px 0;
+  }
+  
+  .events h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section2 table{
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section2 table th{ 
+    font-size: 25px;
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section2 table td{   
+    font-size: 25px;
+    border-bottom: 2px solid black; 
+} 
+.section2 h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .section2 ol {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  /* Book Section */
+  .book-section {
+    color: white;
+    background-image: url(https://wallpapercave.com/wp/wp8829387.jpg); 
+    background-color: #76491379;
+    padding: 80px 0;
+  }
+  
+  .book-section h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .book-section h4 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .book-section p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .book-section ol {
+    font-size: 25px;
+    text-align: left;
+  }
+
+/* Offers Section */
+.section3{
+    color: #000000;
+    background-image: url(https://wallpaperaccess.com/full/124383.jpg); 
+    background-color: rgba(247, 197, 140, 0.405);
+    padding: 80px 0;
+}
+
+.section3 h1{
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+}
+
+.section3 p{
+    color: #FFF;
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(219, 190, 127);
+    color: #000000;
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+
+.box ul{
+    
+    list-style-type: none;
+}
+
+.box ul li{
+    font-size: 1.5rem;
+   margin: 12px 2px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+.btn{
+    padding:8px 13px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 75, 9);
+    
+}
+
+  /* Contact Section */
+  .contact {
+    padding: 80px 0;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/heart-background-desktop-wallpaper-cute-vector_53876-144637.jpg?w=2000);
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+
+
+  
